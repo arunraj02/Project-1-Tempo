@@ -1,0 +1,184 @@
+/* Header Section */
+@media (min-width:320px) and (max-width:767px){
+    .mob-nav{
+        display: block;
+        padding: 20px;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .logo{
+        padding: 20px;
+    }
+
+/* Hero Section */
+#hero h3{
+    font-size: 22px;
+}
+
+#hero h1{
+    font-size: 28px;
+    line-height: 36px;
+}
+
+#hero h2{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+#hero{
+    height: 100vh;
+}
+
+/* About Section */
+.about-title p{
+    width: 100%;
+    font-weight: 600;
+} 
+
+.about-column1{
+    width: 100%;
+}
+
+.about-column2{
+    width: 100%;
+}
+
+/* Services Section */
+.services-title h3{
+    width: 100%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.services-title h3 span{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.services-column1, .services-column2, .services-column3, .services-column4{
+    width: 100%;
+}
+
+/* Features Section */
+.features-column1,.features-column2,.features-column3,.features-column4,
+.features-column5,.features-column6,.features-column7,.features-column8,
+.features-column9,.features-column10,.features-column11,.features-column12{
+    width: 50%;
+    padding: 6px;
+}
+
+.icon-box h3{
+    font-size: 12px;
+}
+
+/* CTA Section */
+.text p{
+    font-size: 12px;
+}
+
+.text h3{
+    font-size: 24px;
+}
+
+/* Portfolio Section */
+.portfolio-column1, .portfolio-column2, .portfolio-column3{
+    width: 100%;
+    padding: 0;
+}
+
+.port-card{
+	margin-bottom:12px;
+}
+
+/* Pricing Section */
+.pricing-column1, .pricing-column2, .pricing-column3{
+    width: 100%;
+}
+
+/* FAQ Section */
+.faq-title h3{
+    font-size: 26px;
+}
+
+.faq-title span{
+    font-size: 26px;
+}
+
+.faq-ques{
+    padding: 6px;
+}
+
+.faq-ques p{
+    font-size: 14px;
+}
+
+/* Team Section */
+.team-column1, .team-column2, .team-column3, .team-column4{
+    width: 100%;
+    padding: 0;
+}
+
+.team-title h3{
+    font-size: 28px;
+}
+
+.team-title span{
+    font-size: 28px;
+}
+
+/* Contact Section */
+.contact-row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row2, .row3{
+    width: 100%;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.row1 {
+    width:100%;
+    padding-left: 0;
+    padding-top: 40px;
+}
+
+.name, .mail{
+    width: 100%;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+/* Footer Section */
+.footer-column1, .footer-column2, .footer-column3, .footer-column4{
+    width: 100%;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-footer-col1{
+    width: 100%;
+    text-align: center;
+}
+
+.copyright{
+    font-size: 14px;
+}
+
+.bottom-footer-col2{
+    width: 100%;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+}

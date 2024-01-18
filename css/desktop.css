@@ -1,0 +1,188 @@
+/* Header Section */
+@media (min-width:1200px){
+    .mob-nav{
+        display: none;
+    }
+
+    .navbar ul{
+        display: block;
+        display: flex;
+    }
+
+    .logo{
+        padding: 20px 0 0 60px;
+    }
+
+    .navbar {
+        padding-right: 60px;
+    }
+
+/* Hero Section */
+#hero h3{
+    font-size: 26px;
+}
+
+#hero h1{
+    font-size: 48px;
+}
+
+#hero h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#hero{
+    height: 100vh;
+    width: 100%;
+}
+
+/* About Section */
+.about-title p{
+    width: 100%;
+    font-weight: 600;
+} 
+
+.about-column1{
+    width: 50%;
+}
+
+.about-column2{
+    width: 50%;
+}
+
+/* Services Section */
+.services-title h3{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.services-title h3 span{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.services-column1, .services-column2, .services-column3, .services-column4{
+    width: 25%;
+    padding: 12px;
+}
+
+/* Features Section */
+.features-column1,.features-column2,.features-column3,.features-column4,
+.features-column5,.features-column6,.features-column7,.features-column8,
+.features-column9,.features-column10,.features-column11,.features-column12{
+    width: 25%;
+    padding: 12px;
+}
+
+.icon-box h3{
+    font-size: 16px;
+}
+
+/* CTA Section */
+.text p{
+    font-size: 16px;
+    margin: 0px 0px 16px;
+}
+
+.text h3{
+    font-size: 28px;
+    margin: 0px 0px 8px;
+}
+
+/* Portfolio Section */
+.portfolio-column1, .portfolio-column2, .portfolio-column3{
+    width: 33.33%;
+    padding: 15px;
+}
+
+.port-card{
+	margin-bottom:24px;
+}
+
+/* Pricing Section */
+.pricing-column1, .pricing-column2, .pricing-column3{
+    width: 33.33%;
+}
+
+/* FAQ Section */
+.faq-title h3{
+    font-size: 32px;
+}
+
+.faq-title span{
+    font-size: 32px;
+}
+
+.faq-ques{
+    padding: 15px;
+}
+
+.faq-ques p{
+    font-size: 18px;
+}
+
+/* Team Section */
+.team-column1, .team-column2, .team-column3, .team-column4{
+    width: 25%;
+    padding: 15px;
+}
+
+.team-title h3{
+    font-size: 32px;
+}
+
+.team-title span{
+    font-size: 32px;
+}
+
+/* Contact Section */
+.contact-row{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+
+.row2, .row3{
+    width: 100%;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.name, .mail{
+    width: 50%;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+/* Footer Section */
+.footer-column1, .footer-column2, .footer-column3, .footer-column4{
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.bottom-container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bottom-footer-col1{
+    width: 50%;
+}
+
+.bottom-footer-col2{
+    width: 50%;
+}
+
+}
